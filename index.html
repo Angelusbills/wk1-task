@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first html task</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Fill a simple form</h1>
+            
+            <form onsubmit="return validateForm()">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <br/>
+                    <input type="text" name="name" id="name" placeholder="Enter name" required>
+                    <br/>
+                    <label for="email">Email:</label>
+                    <br/>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required>
+                    <br/>
+                    <label for="phone">Phone:</label>
+                    <br/>
+                    <input type="number" name="phone" id="phone" placeholder="Enter phone" required>
+                    <br/>
+                    <label for="gender">Gender:</label>
+                    <br/>
+                    <input type="gender" name="gender" id="gender" placeholder="Enter gender" required>
+                    <br/>
+                    <label for="password">Password:</label>
+                    <br/>
+                    <input type="password" name="password" id="password" placeholder="Enter password" required>
+                    <br/>
+                    <button type="button" onclick="alert('Form submitted successfully.')">submit</button>
+
+            </fieldset> 
+        </form>
+    </body>
+</html>
