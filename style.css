@@ -7,3 +7,18 @@ h1{
 #name{
     color: brown;
 }
+fieldset {
+    width: 15%;
+    height: 315px;
+    background-color: white;
+    margin: 0 auto;
+}
+label{
+    color: darkgreen;
+}
+legend{
+    color: darkgreen;
+}
+button{
+    color: green;
+}
